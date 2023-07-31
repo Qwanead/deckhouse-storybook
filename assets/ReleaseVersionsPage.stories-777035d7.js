@@ -1,0 +1,16 @@
+import{I as _,a as h,U as P,o as R,e as L,m as t,z as V,u as r,G as k}from"./vue.esm-bundler-c22c51b1.js";import{R as x}from"./ReleaseInfo-db81f8a3.js";import{_ as I}from"./List-09f6fd5e.js";import{P as T}from"./PageLayout-2a508c04.js";import{T as $}from"./TabsBlock-b2fc9f9b.js";import{r as b}from"./releaseStatuses-3e794a4f.js";import"./ParamsBlock-030746a5.js";import"./vue-types.modern-24ec03a8.js";import"./IconBase-64cd1ae6.js";import"./_plugin-vue_export-helper-c27b6911.js";import"./PlaceholderContent-c4af05a1.js";import"./skeleton.esm-7cb94a1a.js";import"./ParamsItem-b5dbda71.js";import"./CardBlock-473d9ef6.js";import"./TabsItem-1d96b3ff.js";import"./CardNotice-7e5e3c04.js";import"./messageStatusTypes-beeb8f93.js";import"./CardTitle-dec90532.js";import"./CardTitleBadge-5d4540a9.js";import"./ButtonBase-8f35181a.js";import"./vue-i18n.esm-bundler-ace93cd9.js";const l=_({__name:"Page",setup(i){const p=[{title:"Версии",routeName:"Home",active:!0,marked:!0},{title:"Настройки",routeName:"Home",active:!1}],g=[{title:"Общая информация",route:{name:"Home"},items:[{title:"Ваш формат времени",value:"Europe/Moscow (UTC+03:00)"},{title:"Канал обновлений",value:"Alpha"},{title:"Режим обновлений",value:"Авто"},{title:"Подтверждение опасных изменений",value:"По умолчанию"}]},{title:"Уведомления об обновлениях",route:{name:"Home"},items:[{title:"Оповещение",value:"за 1 час"},{title:"URL",value:"http://acme.com",type:"link"},{title:"Авторизация",value:"Bearer-токен"},{title:"Пропустить валидацию TLS",value:"По умолчанию"}]},{title:"Окна обновлений",route:{name:"Home"},items:[{title:"Пн, Вт, Вс",value:"с 19:00 до 23:00"},{title:"Пн, Чт",value:"с 11:00 до 12:30"}]}],a={title:"v1.45.",route:{name:"Home"},content:[{title:"Дата релиза",value:"2023/02/11 - 19:00:15"},{title:"Дата установки",value:"2023/02/11 - 19:00:36"}]},d=b.map((e,n)=>({uid:`${a.title}${n}`,title:`${a.title}${n}`,status:e,content:a.content})),s=h(!0);P(()=>setTimeout(()=>s.value=!1,1500));const f=e=>{console.log(`Install release ${e}`)},v=e=>{console.log(`Show changelog ${e}`)};return(e,n)=>(R(),L(T,null,{title:t(()=>[V("Обновления")]),info:t(()=>[r(x,{params:g,contentLoading:s.value},null,8,["contentLoading"])]),tabs:t(()=>[r($,{tabs:p})]),content:t(()=>[r(I,{items:k(d),contentLoading:s.value,onInstallRelease:f,onShowChangelog:v},null,8,["items","contentLoading"])]),_:1}))}});l.__docgenInfo={exportName:"default",displayName:"Page",description:"",tags:{},sourceFiles:["/Users/user/deckhouse-ui/images/frontend/src/pages/releases/list/Page.vue"]};const X={title:"Deckhouse UI/PageExamples/release/ReleaseVersionsPage",component:l},H=i=>({components:{ReleaseVersionsPage:l},setup(){return{args:i}},template:`
+    <ReleaseVersionsPage v-bind="args" />
+  `}),o=H.bind({});var m,c,u;o.parameters={...o.parameters,docs:{...(m=o.parameters)==null?void 0:m.docs,source:{originalSource:`args => ({
+  components: {
+    ReleaseVersionsPage
+  },
+  setup() {
+    return {
+      args
+    };
+  },
+  template: /* html */\`
+    <ReleaseVersionsPage v-bind="args" />
+  \`
+})`,...(u=(c=o.parameters)==null?void 0:c.docs)==null?void 0:u.source}}};const Y=["Default"];export{o as Default,Y as __namedExportsOrder,X as default};
+//# sourceMappingURL=ReleaseVersionsPage.stories-777035d7.js.map

@@ -1,0 +1,7 @@
+import{I as c,g as m,o as e,k as a,e as r,m as n,p as _,d as l,F as f,y as p,l as y,z as k,t as g}from"./vue.esm-bundler-c22c51b1.js";import{F as C,N as h,P as v}from"./vue-types.modern-24ec03a8.js";import{C as b}from"./CardTitleBadge-5d4540a9.js";import{_ as x}from"./_plugin-vue_export-helper-c27b6911.js";const T={class:"card-title"},B={class:"ty-h2 card-title__text card-title__text--route"},d=c({__name:"CardTitle",props:{route:Object,badges:C(h()).def(()=>[]),modalLink:v().def(!1)},setup(t){return(s,L)=>{const i=m("router-link");return e(),a("div",T,[t.route?(e(),r(i,{key:0,to:t.route},{default:n(()=>[y("h2",B,[l(s.$slots,"default",{},void 0,!0)])]),_:3},8,["to"])):(e(),a("h2",{key:1,class:_(["ty-h2","card-title__text",{"ty-modal-link":t.modalLink}])},[l(s.$slots,"default",{},void 0,!0)],2)),(e(!0),a(f,null,p(t.badges,(o,u)=>(e(),r(b,{key:u,type:o.type},{default:n(()=>[k(g(o.value),1)]),_:2},1032,["type"]))),128))])}}});const j=x(d,[["__scopeId","data-v-19bf0964"]]);d.__docgenInfo={exportName:"default",displayName:"CardTitle",description:"",tags:{},props:[{name:"route",type:{name:"RouteLocationRaw"}},{name:"badges",type:{name:`arrayOf(
+  object<{
+    type: (typeof messageStatusTypes)[number];
+    value: string;
+  }>()
+).def(() => [])`,func:!0}},{name:"modalLink",type:{name:"bool().def(false)",func:!0}}],slots:[{name:"default"}],sourceFiles:["/Users/user/deckhouse-ui/images/frontend/src/shared/ui_kit/card/CardTitle.vue"]};export{j as C};
+//# sourceMappingURL=CardTitle-dec90532.js.map

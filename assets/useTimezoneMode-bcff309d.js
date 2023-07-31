@@ -1,0 +1,2 @@
+import{a,w as n}from"./vue.esm-bundler-c22c51b1.js";const r=(e=!1)=>typeof localStorage.apiPathMode>"u"?e:localStorage.apiPathMode=="true",i=()=>{localStorage.apiPathMode=String(t.value)},t=a(r());n(t,()=>i());function c(){return{apiPathMode:t}}const l=(e=!0)=>typeof localStorage.timezoneMode>"u"?e:localStorage.timezoneMode=="true",d=()=>{localStorage.timezoneMode=String(o.value)},o=a(l());n(o,()=>d());function s(){return{timezoneMode:o}}export{s as a,c as u};
+//# sourceMappingURL=useTimezoneMode-bcff309d.js.map
